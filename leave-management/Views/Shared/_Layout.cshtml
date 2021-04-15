@@ -1,6 +1,7 @@
-﻿@using Microsoft.AspNetCore.Identity
-@inject SignInManager<IdentityUser> SignInManager
-@inject UserManager<IdentityUser> UserManager
+﻿@using leave_management.Data
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<Employee> SignInManager
+@inject UserManager<Employee> UserManager
 
 
 
@@ -56,7 +57,7 @@
                             }
 
 
-                          }
+                        }
 
                     </ul>
                 </div>
